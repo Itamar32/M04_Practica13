@@ -1,7 +1,9 @@
 from Animal_py import animal #Itamar
 from Vehicle import vehicle  #Itamar
 from School import school    #Itamar
-
+from book import book #ivan
+from user import  user #ivan
+from university import university #ivan
 """Creacion de objetos y modificacion de sus atributos usando POO"""
 
     #instancia clase animal
@@ -24,3 +26,21 @@ tigre.salutacio()
 coche.dadesVehicle()
 Jaume.datosColegio()
 
+# A partir de aquí los objetos y sus modificaciones del ejercicio de Iván
+#Instancia clase book
+Quijote = book("Don Quijote" ,"Blanda","1754","Cervantes","Casablanca","2000")
+Lazarillo = book("Lazarillo de tormes","Dura","1800","anonimo","planeta","678")
+#Instancia clase user
+Ivan = user("Ivan","Montero","Fernández","25","184","Python")
+Itamar= user("Itamar","Keydar","Antoni","33","174","Java")
+#Instancia clase university
+Derecho = university("A","Derecho romano","primero","10","Sí","No")
+Matemáticas = university("B","Matemáticas avanzadas","segundo","3","No","Sí")
+
+Quijote.setAutor("Itamar")
+Ivan.setEdad("38")
+Derecho.setNota("6")
+
+Quijote.nom()
+Ivan.salutacio()
+Derecho.info()

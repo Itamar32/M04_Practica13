@@ -8,7 +8,7 @@ class book:
         self.paginas=paginas
 
     def nom(self):
-        print("El título es "+self.titulo +"\n la portada es " + self.potada + "\n la fecha es "+self.fecha+ "\n el autor es " + self.autor +
+        print("El título es "+self.titulo +"\n la portada es " + self.portada + "\n la fecha es "+self.fecha+ "\n el autor es " + self.autor +
               "\n la editorial es " + self.editorial + "\n el numero de páginas es "+ self.paginas)
 
     """A partir de aquí definimos los getters y setters de los atributos de la clase. Esto sirve para poder ver el valor de la tributo(getters)
